@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: slategray;
+}
+header {
+    background-color: orange;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0px;
+    margin: auto;
+    border-bottom: solid 5px black;
+}
+
+#input-section {
+    margin: 8em 1em 1em 3em;
+    background-color: green;
+    width: 30%;
+    border: none 2px;
+    border-radius: 15%;
+    padding: 1em;
+    box-shadow: 2px 4px 10px 4px darkred;
+}
+
+#input-section textarea {
+    border: none;
+    border-radius: 5%;
+    padding: 10px;
+}
+#output-section {
+    margin: 0 auto;
+    padding: 1em;
+
+}
+
+.cards {
+    width:25%;
+    margin: 1.5em;
+    display: inline-block;
+    background-color: darkred;
+    border: none;
+    border-radius: 5%;
+    box-shadow: 2px 4px 10px 4px green;
+    padding: 1em;
+}
+
+
+.cards h4 {
+    text-decoration: underline;
+}
+
+.cards button {
+    position: block;
+    padding: 5px;
+    margin: 5em 1em 1em 1em;
+    border: none;
+    border-radius: 10%;
+}
+
+.card-content {
+    background-color: white;
+    padding: .4em;
+    border: none;
+    border-radius: 20%;
+    box-shadow: 2px 4px 10px 4px white;
+}
